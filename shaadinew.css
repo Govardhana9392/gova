@@ -1,0 +1,38 @@
+.bag
+{
+    height:610px;
+    width:100%;
+    /* background-color:rgb(4, 36, 36); */
+    background-image: url(https://img2.shaadi.com/assests/2021/images/pressure-hatao-banner-v2.jpg);
+}
+*{
+    margin: 0px;
+}
+.main1{
+    height:100px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+}
+.logo{
+    height:100px;
+    width:30%;
+    /* background-color:rgb(0, 0, 0); */
+}
+.login
+{
+    height:100px;
+    width:70%;
+    /* background-color:rgb(0, 0, 0); */
+    display: flex;
+}
+.login h3:hover{
+    text-decoration: underline;
+}
+.bag .lightbag{
+    height: 150px;
+    width: 1000px;
+    background-color: rgba(12, 12, 8, 0.445);
+    margin-left: 150px;
+    margin-top:50px;
+}

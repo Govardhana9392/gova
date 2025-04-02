@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Click Image as Background</title>
+</head>
+<body>
+  <img src="https://imgv3.fotor.com/images/side/ai-generate-watercolor-fairy-from-text-with-Fotor-ai-image-generator.jpg" alt="Image 1" height="300px" width="300px">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFU7U2h0umyF0P6E_yhTX45sGgPEQAbGaJ4g&s" alt="Image 2" height="300px" width="300px">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT0HZZONB2Xa0AoNJhtiqwQHnRIxFaHUteyaQ&s" alt="Image 3" height="300px" width="300px">
+
+  <script>
+    document.addEventListener('click', (event) => {
+      if (event.target.tagName === 'IMG') {
+        const imageSrc = event.target.src;
+        document.body.style.backgroundImage = `url(${imageSrc})`;
+        document.body.style.backgroundSize = 'cover';
+        document.body.style.backgroundRepeat = 'no-repeat';
+      }
+    });
+  </script>
+</body>
+</html>

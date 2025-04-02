@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+.main{
+    background-color: aqua;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+.a{
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+}
