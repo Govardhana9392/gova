@@ -1,0 +1,341 @@
+/* General Body and Smooth Scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Header/Navigation Bar */
+.headings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #24292e; /* GitHub dark header color */
+    color: white;
+    padding: 15px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#home, #about, #career, #skills, #contact {
+    scroll-margin-top: 100px;
+}
+
+.abouts a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.abouts a:hover {
+    color: #0366d6; /* GitHub link blue */
+}
+
+/* Hero Section (middle-1) */
+.middle-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+}
+
+.mid1-1 {
+    text-align: center;
+}
+
+.mid1-1 h1 {
+    color: #24292e;
+    font-size: 3em;
+    margin: 10px 0;
+}
+
+.mid1-1 h3 {
+    color: #586069;
+    font-weight: 400;
+}
+
+.mid1-1 img {
+    margin: 10px;
+    transition: transform 0.2s;
+}
+
+.mid1-1 img:hover {
+    transform: scale(1.1);
+}
+
+.mid1-1 button {
+    padding: 12px 25px;
+    background-color: #0366d6;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.mid1-1 button:hover {
+    background-color: #005cc5;
+}
+
+.mid1-2 img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #e1e4e8;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.links a {
+    color: #24292e;
+    text-decoration: none;
+}
+
+.links h2 {
+    font-size: 1.2em;
+    transition: color 0.2s;
+}
+
+.links a:hover h2 {
+    color: #0366d6;
+}
+
+/* About and Education Sections */
+.mid2, .mid3 {
+    text-align: center;
+    padding: 50px;
+    background-color: #f6f8fa;
+}
+
+.mid2 p {
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1em;
+    color: #444;
+}
+
+.highlight-text {
+    color: #0366d6;
+    font-weight: 600;
+}
+
+.mid3 {
+    background-color: #ffffff;
+}
+
+/* Projects Section */
+.mid4 {
+    background-color: #f8f9fa;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.mid4 h1 {
+    color: #333;
+    margin-bottom: 40px;
+    font-size: 36px;
+    transition: transform 0.2s;
+}
+
+.mid4 h1:hover {
+    transform: scale(1.05);
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.project-card {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    text-align: left;
+    overflow: hidden;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.project-header h3 {
+    margin: 0;
+    font-size: 20px;
+    color: #0366d6;
+}
+
+.project-toggle-icon {
+    font-size: 28px;
+    font-weight: bold;
+    color: #0366d6;
+    transition: transform 0.3s ease;
+}
+
+.project-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: max-height 0.5s ease-out, opacity 0.5s ease-out, padding 0.5s ease-out;
+}
+
+.project-content p {
+    color: #555;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Style for when the card is open */
+.project-card.open .project-content {
+    max-height: 300px;
+    opacity: 1;
+    padding: 10px 20px 20px 20px;
+}
+
+.project-card.open .project-toggle-icon {
+    transform: rotate(45deg);
+}
+
+/* Skills Section */
+.last {
+    padding: 50px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.last h1 {
+    margin-bottom: 30px;
+    color: #24292e;
+    font-size: 32px;
+}
+
+.skill-box {
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.skill-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.12);
+}
+
+.skill-box h3 {
+    color: #0366d6;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.skill-box p {
+    font-size: 14px;
+    color: #586069;
+    line-height: 1.5;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #f6f8fa;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h1 {
+    color: #24292e;
+    margin-bottom: 30px;
+    font-size: 32px;
+}
+
+#form-message {
+    display: none;
+    color: #28a745;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: inherit;
+    box-sizing: border-box;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.contact input:focus,
+.contact textarea:focus {
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(3, 102, 214, 0.3);
+}
+
+.contact button {
+    background-color: #28a745; 
+    color: white;
+    padding: 14px 25px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact button:hover {
+    background-color: #22863a;
+}
