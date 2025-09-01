@@ -1,0 +1,507 @@
+.main1 {
+    height: 900px;
+    width: 100%;
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/8728e059-7686-4d2d-a67a-84872bd71025/e90516bd-6925-4341-a6cf-0b9f3d0c140a/IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_small.jpg);
+    
+}
+
+* {
+    margin:0px;
+    text-decoration: none;
+    
+}
+.main1 .main11{
+    height: 100px;
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.main1 .blur {
+    height: 900px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.616);
+    z-index: -2;
+}
+.main1 .head{
+    height: 100px;
+    width: 100%;
+    /* background-color: brown; */
+    display: flex;
+}
+.main1 .head .head1{
+    height: 100px;
+    width: 30%;
+    /* background-color: aqua; */
+}
+.main1 .head .head2{
+    height: 100px;
+    width: 70%;
+    /* background-color: chocolate; */
+}
+
+.main1 .head .head2{
+    justify-content: center;
+    text-align: center;   
+}
+.main1 .heading{
+    height: 100px;
+    width: 75%;
+    /* background-color: blue; */
+    margin-left: 290px;
+    font-size: 34px;
+    margin-top: 250px;
+    color: white;
+}
+
+.main1 .subhead{
+    color: white;
+    margin-top: 20px;
+    margin-left: 500px;
+    font-size: 20px;
+    /* background-color: brown; */
+}
+.main1 .subone{
+    color: white;
+    margin-top: 30px;
+    margin-left: 380px;
+    font-size: 18px;
+}
+.gap1{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+.second{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.second .secone{
+    height: 700px;
+    width: 50%;
+    /* background-color: blueviolet; */
+}
+.second .sectwo{
+    height: 700px;
+    width: 50%;
+    display: flex;
+    /* background-color: chocolate; */
+}
+.second .secone{
+    color: white;
+    text-align: center;  
+}
+.gap2{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+.third{
+    height: 700px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+.third1{
+    height: 700px;
+    width: 50%;
+    background-color: black;
+}
+.third2{
+    height: 700px;
+    width: 50%;
+    background-color: black;
+}
+fieldset{
+    height: 70px;
+    width: 300px;
+    margin-left: 350px;
+    margin-top: 0px;
+    z-index: -5;
+    background-color: rgba(0, 0, 0, 0.753);
+    display: flex;
+    
+}
+.gap3{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+
+ .four{
+    height: 700px;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+}
+.four .four1{
+    height: 700px;
+    width: 50%;
+    background-color: black;
+}
+.four .four2{
+    height: 700px;
+    width: 50%;
+    background-color: black;
+    display: flex;
+}
+.four .four2 .four21 img{
+    z-index: -10;
+}
+.four .four2 .four22 video{
+    height: 450px;
+    width: 450px;
+    margin-top: 80px;
+    margin-left: -580px;
+    /* z-index: 5; */
+}
+.gap4{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+}
+.five{
+    height: 700px;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+}
+.five .five1{
+    height: 700px;
+    width: 50%;
+    background-color: black;
+}
+.five .five2{
+    height: 700px;
+    width: 50%;
+    background-color: black;
+}
+.gap5{
+    height: 10px;
+    width: 100%;
+    background-color: gray;
+} 
+ .six{
+    height: 1200px;
+    width: 100%;
+    background-color: black;
+}
+
+ .six .fre h1{
+    height: 100px;
+    width: 50%;
+    background-color: black;
+    font-size: 60px;
+    margin-left: 450px;
+    position: relative;
+    top: 100px;
+}
+.six .one {
+    height: 100px;
+    width: 73%;
+    background-color: rgba(35, 37, 37, 0.801);
+     /* background-color: rgba(0, 0, 0, 0.822);  */
+     margin-left: 200px;
+    margin-top: 130px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+}
+ .six .one .onesub1{
+    height: 100px;
+    width: 800px;
+    background-color: blueviolet; 
+  }  
+  .six .one .onesub2{
+    height: 100px;
+    width: 400px;
+     background-color: brown; 
+  } 
+  .six .one:hover{ 
+     background-color: rgba(74, 78, 78, 0.747); 
+  } 
+  .six .two {
+    height: 100px;
+    width: 73%;
+    background-color: rgba(35, 37, 37, 0.801);
+    /* background-color: rgba(0, 0, 0, 0.822);  */
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+} 
+ .six .two:hover{
+    background-color: rgba(74, 78, 78, 0.747);
+ }
+.six .three {
+    height: 100px;
+    width: 73%;
+    background-color: rgba(35, 37, 37, 0.801);
+    /* background-color: rgba(0, 0, 0, 0.822);  */
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex;
+} 
+ .six .three:hover{
+    background-color: rgba(74, 78, 78, 0.747);
+ }
+.six .four {
+    height: 100px;
+    width: 73%;
+    background-color: rgba(35, 37, 37, 0.801);
+     /* background-color: rgba(0, 0, 0, 0.822);  */
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex; 
+ }
+.six .four:hover{
+    background-color: rgba(74, 78, 78, 0.747);
+ }
+.six .five { 
+     height: 100px;
+    width: 73%;
+    background-color: rgba(35, 37, 37, 0.801);
+    /* background-color: rgba(0, 0, 0, 0.822);  */
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex; 
+ }
+.six .five:hover{
+    background-color: rgba(74, 78, 78, 0.747); 
+  }  
+ .six .six 
+{
+    height: 100px;
+    width: 73%;
+    background-color: rgba(35, 37, 37, 0.801);
+    /* background-color: rgba(0, 0, 0, 0.822); */
+    margin-left: 200px;
+    margin-top: 10px;
+    font-size: 20px;
+    color: white;
+    display: flex; 
+ }  
+ .six .six:hover
+{
+    background-color: rgba(74, 78, 78, 0.747);
+ } 
+ .six .para h2{
+    background-color: rgb(0, 0, 0);
+    height: 40px;
+    width: 100%;
+    margin-top: 70px;
+    text-align: center;
+    color: white;
+    margin-left: -20px;
+    font-size: 30px;
+ }
+
+   .gap6
+ {
+    height: 10px;
+    width: 100%;
+    background-color: gray; 
+  }    
+ .last{
+    height: 580px;
+    width: 100%;
+    /* background-color: crimson; */
+    display: flex;
+    background-color: black;
+}  
+.last .lastone h2{
+    color: white;
+    height:30px;
+    width: 400px;
+    /* background-color: brown; */
+    position: relative;
+    left: 200px;
+    top: 100px;
+}
+.last .last2 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    text-decoration: underline;
+    left: 200px;
+    top: 130px;
+}
+.last .last3 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 200px;
+    text-decoration: underline;
+    top: 160px;
+}
+.last .last4 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 200px;
+    top: 190px;
+    text-decoration: underline;
+}
+.last .last5 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 200px;
+    top: 210px;
+    text-decoration: underline;
+}
+.last .last6 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 200px;
+    top: 30px;
+}
+.last .lastoneline{
+    height: 580px;
+    width: 500px;
+    /* background-color: aqua; */
+}
+.last .lasttwoline{
+    height: 580px;
+    width: 500px;
+    /* background-color: brown; */
+}
+.last .last21 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 150px;
+    top: 160px; 
+    text-decoration: underline;
+}
+.last .last22 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 150px;
+    text-decoration: underline;
+    top: 190px;
+}
+.last .last23 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 150px;
+    top: 220px; 
+    text-decoration: underline;
+}
+.last .last24 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 150px;
+    top: 240px;
+    text-decoration: underline;
+}
+.last .lastthreeline{
+    height: 580px;
+    width: 500px;
+    /* background-color: chocolate; */
+}
+.last .last31 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 30px;
+    top:150px;
+    text-decoration: underline;
+}
+.last .last32 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 30px;
+    top: 180px;
+    text-decoration: underline;
+}
+.last .last33 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: 30px; 
+    top: 220px; 
+    text-decoration: underline;
+}
+.last .last34 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    /* left: 100px;
+    top: 230px; */
+    text-decoration: underline;
+}
+.last .lastfourline{
+    height: 580px;
+    width: 500px;
+    /* background-color: chartreuse; */
+}
+.last .last41 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: -10px; 
+    top: 150px; 
+    text-decoration: underline;
+}
+.last .last42 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: -10px; 
+    top: 180px; 
+    text-decoration: underline;
+}
+.last .last43 h3{
+    color: white;
+    height:30px;
+    width: 200px;
+    /* background-color: brown; */
+    position: relative;
+    left: -10px; 
+    top: 220px; 
+    text-decoration: underline;
+}

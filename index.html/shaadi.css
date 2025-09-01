@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    text-decoration: none;
+}
+.main{
+    height: 630px;
+    width: 100%;
+    background-image: url(https://img2.shaadi.com/assests/2023/images/shaadi-desktop-banner-v1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 630px;
+}
+.main h1{
+    padding-left: 200px;
+    padding-top: 50px;
+    font-size: 60px;
+    color: white;
+}
+option{
+    margin-left: 1000px;
+    font-size: 25px;
+    color: white;
+    margin-top: -32px;
+}
+#ab{
+    margin-left: 1100px;
+    padding-top: -200px;
+}
+option:hover{
+    text-decoration: underline;
+}
+#ba{
+  padding-left: 100px;
+    margin-top: 10px;
+}
+.submain{
+    text-align: center;
+    padding-top: 200px;
+    padding-left: -200px;
+    color: white;
+    font-size: 30px;
+}
+.one{
+    height: 500px;
+    width: 100%;
+    background-color: rgb(243, 241, 238);
+}
+fieldset{
+    height: 200px;
+    width: 1000px;
+    background-color: rgb(29, 2, 59);
+    margin-top: -400px;
+    color: white;
+    margin-left: 180px;
+    /* justify-content: center; */
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+}
+fieldset h1{
+    color:rgb(241, 205, 138) ;
+}
+#two h3{
+    flex-wrap: wrap;
+    color: #f8f8f8;
+    margin-top: 170px;
+    margin-left: -400px;
+}
+#two h3:hover{
+    text-decoration: underline;
+}
+#three{
+    color: white;
+    margin-top: 170px;
+    margin-left: -200px;
+}
+#three:hover{
+    text-decoration:underline;
+}
+#four{
+    color: white;
+    margin-top: 170px;
+    margin-left: 0px;
+}
+fieldset input{
+    background-color: rgb(240, 177, 94);
+    margin-top: 150px;
+    margin-left: -280px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+.inbox{
+    height: 100px;
+    width:1000px;
+    background-color: rgba(74, 82, 82, 0.507);
+    background-position: 200px 0px;
+    margin-left:250px;
+    margin-top: 30px;
+}
