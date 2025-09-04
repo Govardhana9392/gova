@@ -1,4 +1,3 @@
-*
-!.gitignore
-!portfoliowebsite/
-!portfoliowebsite/**
+/arrays/
+/assignments/
+/index.html/
